@@ -1,0 +1,4 @@
+boto3>=1.34
+# demo mode and tests only (mocked AWS, no real calls):
+moto[s3,iam,ec2,sts]>=5.0
+pytest>=7.0
